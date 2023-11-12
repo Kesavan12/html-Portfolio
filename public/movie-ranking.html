@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Movie Ranking MiniProject</title>
+        <style>
+            body{background-color: aliceblue;}
+            .moviePlaceNo_in_Webpage_IsOdd{ background-color: bisque;}
+            .moviePlaceNo_in_Webpage_IsEven{background-color: darksalmon;}
+        </style>
+    </head>
 <body>
     <h1>The Best Movies According to Kesavan</h1>
     <hr/>
     <table>
-        <tr>
+        <div>
+        <tr class="moviePlaceNo_in_Webpage_IsOdd">
             <td>
                 <img src="https://images.saymedia-content.com/.image/t_share/MTgxNTAyMjA4MzcyNjQ3MDgw/the-insidious-franchise-and-why-paranormal-horror-isnt-scary.jpg" alt="Insidious Poster" width="200">
             </td>
@@ -16,7 +25,10 @@
                 </p>
             </td>
         </tr>
-        <tr>
+        </div>
+
+        <div>
+        <tr class="moviePlaceNo_in_Webpage_IsEven">
             <td>
                 <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTallr69g7uXzNcxB0dq0-KQ9YkAK_4FpCHdK8yMu9nnOiVDeCD" alt="InTime Poster" width="200">
             </td>
@@ -29,7 +41,10 @@
                 </p>
             </td>
         </tr>
-        <tr>
+        </div>
+
+        <div>
+        <tr class="moviePlaceNo_in_Webpage_IsOdd">
             <td>
                 <img src="https://mr.comingsoon.it/imgdb/locandine/big/53763.jpg" alt="Ready Player One Poster" width="200">
             </td>
@@ -41,6 +56,7 @@
                 </p>
             </td>
         </tr>
+        </div>
     </table>
     <hr/>
 </body>
